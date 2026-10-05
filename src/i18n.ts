@@ -28,7 +28,7 @@ const ja = {
 };
 export type Dict = typeof ja;
 const en: Dict = {
-  app: 'Yomiage Ita',
+  app: 'Simple Teleprompter',
   sub: 'Big type and auto-scroll. You read it yourself — this does not speak aloud.',
   newScript: 'New script',
   titlePh: 'Title',
