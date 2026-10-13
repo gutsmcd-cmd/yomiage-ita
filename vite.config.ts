@@ -9,10 +9,10 @@ export default defineConfig({
       includeAssets: ['icons/*.png'],
       manifest: {
         id: '/yomiage-ita/',
-        name: '読み上げ板',
-        short_name: '読み上げ板',
+        name: 'カンペ',
+        short_name: 'カンペ',
         description:
-          '原稿を大きくスクロールする読み上げ板。無料・広告なし・ログイン不要・オフライン。A teleprompter with big type and auto-scroll. Free, no ads, no login, offline.',
+          '原稿を大きくスクロールするカンペ。無料・広告なし・ログイン不要・オフライン。A teleprompter with big type and auto-scroll. Free, no ads, no login, offline.',
         lang: 'ja',
         theme_color: '#0E7490',
         background_color: '#F2FBFD',

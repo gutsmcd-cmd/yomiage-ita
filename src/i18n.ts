@@ -1,6 +1,6 @@
 export type Lang = 'ja' | 'en';
 const ja = {
-  app: '読み上げ板',
+  app: 'カンペ',
   sub: '原稿を大きく表示して自動スクロール。音声ではなく、自分で読む板です。',
   newScript: '新しい原稿',
   titlePh: 'タイトル',
