@@ -84,7 +84,7 @@ function setLang(l: Lang): void {
   state.lang = l;
   t = dicts[l];
   document.documentElement.lang = l;
-  document.title = t.app;
+  document.title = 'Simple Teleprompter';
   queueSave();
   render();
 }
@@ -433,7 +433,7 @@ async function boot(): Promise<void> {
   }
   t = dicts[state.lang];
   document.documentElement.lang = state.lang;
-  document.title = t.app;
+  document.title = 'Simple Teleprompter';
   render();
 }
 void boot();

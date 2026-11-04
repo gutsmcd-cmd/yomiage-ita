@@ -9,8 +9,8 @@ export default defineConfig({
       includeAssets: ['icons/*.png'],
       manifest: {
         id: '/yomiage-ita/',
-        name: 'カンペ',
-        short_name: 'カンペ',
+        name: 'Simple Teleprompter',
+        short_name: 'Teleprompter',
         description:
           '原稿を大きくスクロールするカンペ。無料・広告なし・ログイン不要・オフライン。A teleprompter with big type and auto-scroll. Free, no ads, no login, offline.',
         lang: 'ja',
